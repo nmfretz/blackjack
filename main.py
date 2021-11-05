@@ -97,11 +97,7 @@ def welcome_message():
   print('\nRead the rules here: https://www.blackjack.org/blackjack/how-to-play/')
   print('\nModifications to the rules are as follow:')
   print(' - No Insurance, Split, or Double Down')
-  print(' - Dealer does not have to hit on a soft 17')
-  print(" - No ties. Dealer must hit until their points are greater than the player's points")
-  print(' - Player automatically wins with 21')
-  print(' - Program automatically assigns a value of 1 or 11 to aces based on what gets player and dealer closest to 21')
-  print(' - Bet payouts are 1:1')
+  print(' - Bet payouts are always 1:1')
 
   input('\nPress enter to continue...')
   screen_clear()
